@@ -9,7 +9,7 @@ export const databaseProviders = [
     {
         provide: SEQUELIZE,
         useFactory: async () => {
-          const sequelize = new Sequelize(configService.getSequelizeConfig());
+          const sequelize = new Sequelize(configService.getDatabaseUrl());
             sequelize.addModels([UserModel, ShapeModel]);
             await sequelize.sync();
             return sequelize;

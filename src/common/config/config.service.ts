@@ -57,6 +57,10 @@ class ConfigService {
     return this.getValue('SALT_ROUNDS', true);
   }
 
+  public getDatabaseUrl() {
+    return this.getValue('DATABASE_URL', true);
+  }
+
   public getSequelizeConfig(): SequelizeModuleOptions {
     return {
       host: this.getValue('POSTGRES_HOST'),
@@ -68,9 +72,12 @@ class ConfigService {
       dialect: 'postgres',
       logging: false,
       autoLoadModels: true,
+      synchronize: true,
       pool: {
         acquire: 50000
-      }
+      },
+      ssl: true,
+      // mo
     };
   }
 }
