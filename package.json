@@ -14,7 +14,7 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "npm run migration && node dist/main.js",
-    "migration": "npx sequelize db:migrate && npx sequelize db:seed:all",
+    "migration": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
