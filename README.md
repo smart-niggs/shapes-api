@@ -3,7 +3,7 @@
 ### Check out the API with the following Urls:
 - ### [App Url](https://shapes-api-asb.herokuapp.com/api/v1)
 - ### [Swagger Docs](https://shapes-api-asb.herokuapp.com/api/v1/docs)
-- ### [Postman Docs](https://documenter.getpostman.com/view/3166095/TW74j5XU)
+- ### [Postman Docs(samples included)](https://documenter.getpostman.com/view/3166095/TW74j5XU)
 <br />
 
 ### Description
