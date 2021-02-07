@@ -1,41 +1,61 @@
+# **SHAPES API CALCULATOR**.
 
-SHAPES API CALCULATOR.
+### Check out the API with the following Urls:
+- ### [App Url](https://shapes-api-asb.herokuapp.com/api/v1)
+- ### [Swagger Docs](https://shapes-api-asb.herokuapp.com/api/v1/docs)
+- ### [Postman Docs](https://documenter.getpostman.com/view/3166095/TW74j5XU)
+<br />
 
-
-## Description
-Built using [Nest](https://github.com/nestjs/nest) framework.
+### Description
+- Shapes API for ASB.
+-  Built using [Nest](https://github.com/nestjs/nest) framework.
+<br />
 
 ## Installation
-
 ```bash
 $ npm install
 ```
 
-## Running the app
-ensure you have postgres installed and the database created.
+## Post Installation
+>##### ensure you have postgres installed and the database created.
+<br />
 
-# create tables in database
+### create tables in database
+```bash
 $ npm run migration
+```
+<br />
 
-# development
+## Running the app
+<br />
+
+### development
+```bash
 $ npm run start
+```
 
-# watch mode
-$ npm run start:dev
+### watch mode
+```bash
+$ npm run dev
+```
 
-# production mode
+### production mode
+```bash
 $ npm run prod
 ```
 
 ## Test
-
+### unit tests
 ```bash
-# unit tests
 $ npm run test
+```
 
-# e2e tests
+### e2e tests
+```bash
 $ npm run test:e2e
+```
 
-# test coverage
+### test coverage
+```bash
 $ npm run test:cov
 ```
